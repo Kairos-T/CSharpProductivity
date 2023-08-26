@@ -140,7 +140,37 @@ class Program {
 
     static void DecisionMaker()
   {
+    Console.WriteLine("\nDecision Maker\n");
+    List<string> options = new List<string>();
 
-    
+    while(true)
+    {
+      Console.Write("Enter an option (or 0 to generate a decision): ");
+      string input = Console.ReadLine();
+
+      if (input == "0")
+      {
+        if (options.Count == 0)
+        {
+          Console.WriteLine("No options entered.");
+        }
+
+        else 
+        {
+          Random random = new Random(); // Creates instance of random class
+        int randomIndex = random.Next(0, options.Count); // Next method generates random integer within range
+        string selected = options[randomIndex];
+
+        Console.WriteLine($"Decision: {selected}\n");
+        break;
+        }
+      }
+
+      else
+      {
+        options.Add(input);
+        Console.WriteLine("Option added.");
+      }
+    }
   }
 }
