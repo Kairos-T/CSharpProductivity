@@ -15,7 +15,7 @@ Features:
   - View to-do list
   - Add tasks
   - Tick/Remove tasks
-  - Saves tasks to text file after exiting
+  - Saves tasks to text file after exiting (To be implemented)
 - Decision maker
   - Allows users to add in options
   - Generates one option (e.g. a task to do first)
