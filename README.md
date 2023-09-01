@@ -20,3 +20,9 @@ Features:
   - Allows users to add in options
   - Generates one option (e.g. a task to do first)
 
+Usage:
+1. Run project with
+```bash
+dotnet run --project productivity_app
+```
+2. Follow instructions on CLI
