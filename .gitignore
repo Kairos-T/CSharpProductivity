@@ -1,3 +1,4 @@
 .vscode
 CSharpProductivity.sln
 conceptnotes.cs
+packages.lock.json
